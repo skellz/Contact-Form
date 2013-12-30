@@ -32,6 +32,7 @@ feature "User submits a contact inquiry", %q{
       click_on "Create Inquiry"
 
       expect(page).to have_content "can't be blank"
+      
     end
   end
 end
