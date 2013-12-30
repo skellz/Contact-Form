@@ -1,0 +1,8 @@
+<%= simple_form_for @inquiry do |f| %>
+  <%= f.input :email, label: 'Email Address' %>
+  <%= f.input :subject, label: 'Subject' %>
+  <%= f.input :description, label: 'Description' %>
+  <%= f.input :first_name, label: 'First Name' %>
+  <%= f.input :last_name, label: 'Last Name' %>
+  <%= f.button :submit %>
+<% end %>

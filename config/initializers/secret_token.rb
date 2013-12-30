@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-ContactForm::Application.config.secret_key_base = '6023e4e245a9c0055943613cff375c82e19dcb94b59c1cae30183fec2a1c6a5d10735a715c3ec6b79fa0f5978e41d147ed311f3244e52575a23297a6e3104651'
+ContactForm::Application.config.secret_key_base = ENV['SECRET_KEY']
